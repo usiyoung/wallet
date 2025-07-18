@@ -1,0 +1,52 @@
+{
+  "name": "SOOHO IO Wallet",
+  "version": "1.0.0",
+  "description": "블록체인을 위한 간편한 지갑",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "browser-extension",
+    "wallet",
+    "blockchain"
+  ],
+  "author": "김나영",
+  "license": "MIT",
+  "dependencies": {
+    "@noble/secp256k1": "^2.3.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@scure/bip32": "^1.7.0",
+    "@scure/bip39": "^1.6.0",
+    "@types/elliptic": "^6.4.18",
+    "@types/sha256": "^0.2.2",
+    "axios": "^1.10.0",
+    "bip39": "^3.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "elliptic": "^6.6.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "sha256": "^0.2.0",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/chrome": "^0.1.1",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/webextension-polyfill": "^0.12.3",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "vite-plugin-web-extension": "^4.4.5"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "icons": {
+    "16": "sooho/sooho.png",
+    "32": "sooho/sooho.png",
+    "48": "sooho/sooho.png",
+    "128": "sooho/sooho.png"
+  },
+  "action": {
+    "default_popup": "src/ui/popup.html",
+    "default_title": "SOOHO IO Wallet",
+    "default_icon": {
+      "16": "sooho/sooho.png",
+      "32": "sooho/sooho.png",
+      "48": "sooho/sooho.png",
+      "128": "sooho/sooho.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "permissions": ["storage", "activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/ui/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
