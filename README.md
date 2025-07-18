@@ -31,7 +31,7 @@ npm run build
 - `압축해제된 확장 프로그램을 로드` 버튼을 클릭합니다.
 - 프로젝트 루트에 생성된 `dist` 폴더를 선택합니다.
 
-
+<br/><br/>
 
 ## **사용된 기술 스택**
 
@@ -44,6 +44,7 @@ npm run build
 | **Dev Tools** | `vite-plugin-web-extension`, `vite-plugin-node-polyfills` | Vite 환경에서 웹 확장 프로그램 개발을 용이하게 하고, `crypto`, `buffer` 등 Node.js 모듈을 브라우저에서 사용하도록 **Polyfill**을 설정. |
 
 
+<br/><br/>
 
 ## **AI 활용 사용법**
 
