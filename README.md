@@ -87,6 +87,3 @@ git diff 내용을 바탕으로 아래의 구조로 커밋해줘
 ```
 이 API의 엔드포인트는 `/send`, 리퀘스트 형식은 `{ from: string, to: string, amount: number }`, 응답값은 `{ txId: string, status: 'pending' | 'success' }`이야. 이걸 기반으로 TypeScript 타입을 각각 정의해 줘.
 ```
-# wallet
-# wallet
-# wallet
